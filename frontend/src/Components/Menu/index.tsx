@@ -61,7 +61,7 @@ const MenuComponent = () => {
 
 
                 <Box className="login">
-                    {arr?.name ? (<Link to='/conta'><AccountCircleOutlined />Minha conta <span>Bem vindo(a) {arr.name}</span></Link>
+                    {arr?.name ? (<Link to='/account'><AccountCircleOutlined />Minha conta <span>Bem vindo(a) {arr.name}</span></Link>
                     ) : (<Link to='/'><AccountCircleOutlined />Login</Link>
                     )}
 

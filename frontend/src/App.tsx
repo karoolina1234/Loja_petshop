@@ -7,6 +7,7 @@ import MenuComponent from './Components/Menu';
 import ListPage from './Pages/Lista';
 import DetailItem from './Pages/DetailItem';
 import CartPage from './Pages/Carrinho';
+import UserAccountPage from './Pages/Conta';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/products/:id' element={<ListPage/>}/>
         <Route path='/detail/:id' element={<DetailItem/>}/>
         <Route path='/cart' element={<CartPage/>}/>
+        <Route path='/account' element={<UserAccountPage/>}/>
 
 
       </Routes>
