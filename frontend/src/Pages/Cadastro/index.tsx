@@ -45,8 +45,9 @@ const CadastroPage = () => {
                 address: '',
                 celular: ''
               });
-              
-            console.log({ response })
+
+              window.location.href="/"
+
         } catch (error) {
             console.error(error)
         }
