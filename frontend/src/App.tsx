@@ -8,6 +8,7 @@ import ListPage from './Pages/Lista';
 import DetailItem from './Pages/DetailItem';
 import CartPage from './Pages/Carrinho';
 import UserAccountPage from './Pages/Conta';
+import CadastroPage from './Pages/Cadastro';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/detail/:id' element={<DetailItem/>}/>
         <Route path='/cart' element={<CartPage/>}/>
         <Route path='/account' element={<UserAccountPage/>}/>
+        <Route path='/register' element={<CadastroPage/>}/>
 
 
       </Routes>

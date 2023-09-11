@@ -88,7 +88,7 @@ const LoginPage = () => {
                     e gerenciar a sua Assinatura, acompanhar
                     os seus pedidos e muito mais!
                 </Typography>
-                <Button className="btnCriar">Criar conta</Button>
+                <Button href="/register" className="btnCriar">Criar conta</Button>
             </Box>
         </S.Login>
     )
